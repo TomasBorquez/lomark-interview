@@ -1,0 +1,20 @@
+### CREATES a new employee
+
+POST http://localhost:8080/api/employees
+Content-Type: application/json
+
+{
+  "name": "Tomas",
+  "designation": "Developer",
+  "salary": 1000
+}
+
+### GETS all empoyees
+
+GET http://localhost:8080/api/employees
+Accept: application/json
+
+### GETS the employee by ID
+
+GET http://localhost:8080/api/employees/3
+Accept: application/json
